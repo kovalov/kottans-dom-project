@@ -30,7 +30,5 @@ const data = [
 ];
 
 export function getSelectedDataItem(id) {
-  const selectedData = data.find((item) => item.id === Number(id));
-  const { name, description, src } = selectedData;
-  return { name, description, src };
+  return data.find((item) => item.id === Number(id));
 }
