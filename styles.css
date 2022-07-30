@@ -135,6 +135,7 @@ body {
 
 .navigation__list {
 	list-style: none;
+	text-align: center;
 }
 
 .navigation__list-item:focus,
