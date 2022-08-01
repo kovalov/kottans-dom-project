@@ -209,6 +209,9 @@ body {
 	.main-header {
 		flex-direction: row;
 	}
+	.main-header__title {
+		flex: 0 0 auto;
+	}
 	.side-menu {
 		width: 400px;
 	}

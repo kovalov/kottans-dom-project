@@ -1,4 +1,4 @@
-export function createElement({ id, name, description, src }) {
+export function createContentElement({ id, name, description, src }) {
   const HTML = `
 	 <article class="main-section__content">
 			 <h1 class="main-section__title">${name}</h1>
